@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Serif|Play|Varela+Round');
+body{
+    background-color: lightblue;
+}
+
+header{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.logo{
+    padding-left: 20px;
+    width: 100px;
+}
+h1{
+    font-size: 30px;
+    padding-right: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+h2{
+    margin-top: 30px;
+    font-family: 'Varela Round', sans-serif;
+}
+p{
+    font-size: 15px;
+    padding-right: 15px;
+}
+#theHead{
+    display: flex;
+}
+.col-sm-6 {
+    flex: 1;
+}
+hr {
+    height: 5px;
+    border-top: 3px solid aliceblue;
+}
+
+.link-to-project{
+    text-align: center;
+}
+a:hover{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 450px){
+    h1{
+        font-size: 20px;
+    }
+    p{
+       font-size: 10px; 
+    }
+    .logo{
+        width: 80%;
+        padding-left: 30px;
+    }
+}
